@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Characters
+    uniqueID: 2919284693
+    locked: 0
+  - name: Surfaces
+    uniqueID: 1427396323
+    locked: 0
+  - name: Items
+    uniqueID: 2188494757
+    locked: 0
+  - name: FX
+    uniqueID: 3115257513
+    locked: 0
+  - name: UI
+    uniqueID: 3735781023
+    locked: 0
