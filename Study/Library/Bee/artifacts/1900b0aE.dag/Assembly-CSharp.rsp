@@ -359,6 +359,7 @@
 "Assets/FungusExamples/FungusLua/Bindings/CustomScript.cs"
 "Assets/FungusExamples/MonoBehEvents/SpriteColorChangeFromFungusMouseEvent.cs"
 "Assets/FungusExamples/TextMeshPro/TMProLinkStylingDemo.cs"
+"Assets/Scripts/Inventory.cs"
 "Assets/Scripts/MenuMain.cs"
 "Assets/Scripts/SceneSwitcher.cs"
 "Assets/Scripts/target.cs"
