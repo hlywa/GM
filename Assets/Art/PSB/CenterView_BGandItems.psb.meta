@@ -1,0 +1,742 @@
+fileFormatVersion: 2
+guid: 91b4ffa012a58ca4d9bb5a8276a416b7
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Terrarium Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 3153
+      width: 175
+      height: 189
+    spriteID: cc23c16a736504e49bf4369269c08fe0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -657, y: 2365}
+  - name: Green Lamp Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 2730
+      width: 197
+      height: 242
+    spriteID: a6806777cffb1714bbffca9179b23f50
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -71, y: 2353}
+  - name: Oil Painting Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3323
+      width: 520
+      height: 392
+    spriteID: 0e73438f78b08464aa905199d4e10424
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -687, y: 2754}
+  - name: Astrology Poster Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3723
+      width: 493
+      height: 365
+    spriteID: 5ba1ca3fe7528c74c9704443a721280e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -699, y: 3141}
+  - name: Pen Holder Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 845
+      y: 2730
+      width: 73
+      height: 88
+    spriteID: 1482a99dfaafbb84a95b472ea39fe60d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 149, y: 2333}
+  - name: Capodimonte Rose Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 809
+      y: 3456
+      width: 117
+      height: 58
+    spriteID: 759740c111637f44ba29b903d5d4f41a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -217, y: 2946}
+  - name: Classic Books Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 823
+      y: 3153
+      width: 105
+      height: 135
+    spriteID: 4a3467ab06ac9c941847a721915b2640
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -236, y: 2769}
+  - name: Bronze Key Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 857
+      y: 3660
+      width: 59
+      height: 23
+    spriteID: 7da4cae4875485f45813fa4cbae96caf
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -294, y: 3287}
+  - name: Globe Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 2465
+      width: 193
+      height: 257
+    spriteID: 830516fb5c3038b4cadaa1ffee99f3a4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -933, y: 1676}
+  - name: Film History Books Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 2980
+      width: 239
+      height: 165
+    spriteID: f3cbbf721d9847445851867bd0826f75
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 238, y: 2285}
+  - name: Film Projector Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 2180
+      width: 318
+      height: 277
+    spriteID: 165eb85a9c4982a4cb3d5a817848ded3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 567, y: 1482}
+  - name: Video Tapes Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 3697
+      width: 258
+      height: 103
+    spriteID: 8d2a5c35a6216c7499afe67a9076fc0c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 304, y: 3248}
+  - name: Paper Mache Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 809
+      y: 3350
+      width: 130
+      height: 98
+    spriteID: 6c95eeba5d442b44f8af84f8ee47f166
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 620, y: 2901}
+  - name: Film Cases Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2821
+      width: 628
+      height: 494
+    spriteID: 888b8e73310362f4cad6ae6f7549a089
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 2513}
+  - name: Binders Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 3557
+      width: 209
+      height: 132
+    spriteID: 0db1342a83e63fb42a0d485f20df39fd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 491, y: 3015}
+  - name: Box Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 3350
+      width: 161
+      height: 199
+    spriteID: d06b6f34970e4764ab0aa9dcce976573
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 372, y: 3227}
+  - name: Stacked Paper Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 845
+      y: 2826
+      width: 82
+      height: 74
+    spriteID: 940657258c7e0d2439da407ebc1e2e29
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 340, y: 2575}
+  - name: Board Games Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 857
+      y: 3557
+      width: 98
+      height: 95
+    spriteID: 73991898fedc55644a1120c9464cbc71
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 352, y: 3410}
+  - name: Text Book Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2180
+      width: 628
+      height: 633
+    spriteID: 1cedb00636be7a24f8ffeccd37fe85c8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 2011}
+  - name: Center View BG
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1920
+      height: 1080
+    spriteID: aec8b848c2a5a4547bb5c08c4cf699b5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: Background
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 1920
+      height: 1080
+    spriteID: 2d6029e0f60871549b66e9e285eef335
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1092}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 1024
+  importedTextureHeight: 2048
+  documentSize: {x: 1920, y: 1080}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 2048
+  textureActualHeight: 4096
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Terrarium Item
+    spriteName: Terrarium Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cc23c16a736504e49bf4369269c08fe0
+    layerID: 21
+    mosaicPosition: {x: 640, y: 3153}
+  - name: Green Lamp Item
+    spriteName: Green Lamp Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a6806777cffb1714bbffca9179b23f50
+    layerID: 20
+    mosaicPosition: {x: 640, y: 2730}
+  - name: Oil Painting Item
+    spriteName: Oil Painting Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0e73438f78b08464aa905199d4e10424
+    layerID: 19
+    mosaicPosition: {x: 4, y: 3323}
+  - name: Astrology Poster Item
+    spriteName: Astrology Poster Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5ba1ca3fe7528c74c9704443a721280e
+    layerID: 18
+    mosaicPosition: {x: 4, y: 3723}
+  - name: Pen Holder Item
+    spriteName: Pen Holder Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1482a99dfaafbb84a95b472ea39fe60d
+    layerID: 17
+    mosaicPosition: {x: 845, y: 2730}
+  - name: Capodimonte Rose Item
+    spriteName: Capodimonte Rose Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 759740c111637f44ba29b903d5d4f41a
+    layerID: 16
+    mosaicPosition: {x: 809, y: 3456}
+  - name: Classic Books Item
+    spriteName: Classic Books Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4a3467ab06ac9c941847a721915b2640
+    layerID: 15
+    mosaicPosition: {x: 823, y: 3153}
+  - name: Bronze Key Item
+    spriteName: Bronze Key Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7da4cae4875485f45813fa4cbae96caf
+    layerID: 14
+    mosaicPosition: {x: 857, y: 3660}
+  - name: Globe Item
+    spriteName: Globe Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 830516fb5c3038b4cadaa1ffee99f3a4
+    layerID: 13
+    mosaicPosition: {x: 640, y: 2465}
+  - name: Film History Books Item
+    spriteName: Film History Books Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f3cbbf721d9847445851867bd0826f75
+    layerID: 12
+    mosaicPosition: {x: 640, y: 2980}
+  - name: Film Projector Item
+    spriteName: Film Projector Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 165eb85a9c4982a4cb3d5a817848ded3
+    layerID: 11
+    mosaicPosition: {x: 640, y: 2180}
+  - name: Video Tapes Item
+    spriteName: Video Tapes Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8d2a5c35a6216c7499afe67a9076fc0c
+    layerID: 10
+    mosaicPosition: {x: 640, y: 3697}
+  - name: Paper Mache Item
+    spriteName: Paper Mache Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6c95eeba5d442b44f8af84f8ee47f166
+    layerID: 9
+    mosaicPosition: {x: 809, y: 3350}
+  - name: Film Cases Item
+    spriteName: Film Cases Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 888b8e73310362f4cad6ae6f7549a089
+    layerID: 8
+    mosaicPosition: {x: 4, y: 2821}
+  - name: Binders Item
+    spriteName: Binders Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0db1342a83e63fb42a0d485f20df39fd
+    layerID: 7
+    mosaicPosition: {x: 640, y: 3557}
+  - name: Box Item
+    spriteName: Box Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d06b6f34970e4764ab0aa9dcce976573
+    layerID: 6
+    mosaicPosition: {x: 640, y: 3350}
+  - name: Stacked Paper Item
+    spriteName: Stacked Paper Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 940657258c7e0d2439da407ebc1e2e29
+    layerID: 5
+    mosaicPosition: {x: 845, y: 2826}
+  - name: Board Games Item
+    spriteName: Board Games Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 73991898fedc55644a1120c9464cbc71
+    layerID: 4
+    mosaicPosition: {x: 857, y: 3557}
+  - name: Text Book Item
+    spriteName: Text Book Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1cedb00636be7a24f8ffeccd37fe85c8
+    layerID: 3
+    mosaicPosition: {x: 4, y: 2180}
+  - name: Center View BG
+    spriteName: Center View BG
+    isGroup: 0
+    parentIndex: -1
+    spriteID: aec8b848c2a5a4547bb5c08c4cf699b5
+    layerID: 2
+    mosaicPosition: {x: 4, y: 4}
+  - name: Background
+    spriteName: Background
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2d6029e0f60871549b66e9e285eef335
+    layerID: 1
+    mosaicPosition: {x: 4, y: 1092}
+  sharedRigPSDLayers: []
+  generateGOHierarchy: 0
+  textureAssetName: CenterView_BGandItems Texture
+  prefabAssetName: CenterView_BGandItems Prefab
+  spriteLibAssetName: CenterView_BGandItems Sprite Lib
+  skeletonAssetName: CenterView_BGandItems Skeleton
+  secondarySpriteTextures: []
