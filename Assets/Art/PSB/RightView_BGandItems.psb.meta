@@ -1,0 +1,916 @@
+fileFormatVersion: 2
+guid: b49a15263e65f2344bfca7ae0c95ebbd
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Gramophone Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1349
+      y: 2285
+      width: 210
+      height: 187
+    spriteID: 04a12fd1ef7f18846869693afbd05754
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 556, y: 1777}
+  - name: Tea Set Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2180
+      width: 995
+      height: 477
+    spriteID: a7802d4427b2e654a88dd1e297845c63
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -876, y: 1578}
+  - name: Glass Animals Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1349
+      y: 2180
+      width: 488
+      height: 97
+    spriteID: 54acf412af0bde247b287f819955d101
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -27, y: 1467}
+  - name: Blue Quartz Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 216
+      width: 65
+      height: 85
+    spriteID: f1cff9e144f663346a8ad803f2da51e7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 517, y: -360}
+  - name: Amethyst Geode Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 103
+      width: 91
+      height: 105
+    spriteID: b1af0e1806c8e26419d8fa1716f3ee92
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 301, y: -476}
+  - name: Large Pyrite Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 309
+      width: 76
+      height: 70
+    spriteID: 144cabb789217734da7db704f12a1578
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 148, y: -267}
+  - name: Hourglass Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1623
+      y: 2480
+      width: 156
+      height: 113
+    spriteID: 4fe58fd824350e8459fd9dd45e976472
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1460, y: 1748}
+  - name: Alchemy Book Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1929
+      y: 2480
+      width: 112
+      height: 112
+    spriteID: 9232c1e40e6d4844dbe5584649d439f7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1722, y: 1748}
+  - name: Empty Journals Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1567
+      y: 2400
+      width: 275
+      height: 65
+    spriteID: 18165e0e26c247a4a9229640034d103e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1226, y: 1669}
+  - name: Photography Album Items
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1007
+      y: 2180
+      width: 334
+      height: 379
+    spriteID: 4379ef342d15fba47bdc573e7ca91325
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 867, y: 1864}
+  - name: Incense Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1623
+      y: 2601
+      width: 128
+      height: 55
+    spriteID: 9bccccd0ce8ce494a96fc93625479a33
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1293, y: 2015}
+  - name: Framed Photo Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 4
+      width: 108
+      height: 91
+    spriteID: b2b9e0ed0f749f34598a38a39069579e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1454, y: -584}
+  - name: "Newton\u2019s Cradle Item"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 571
+      y: 2665
+      width: 137
+      height: 82
+    spriteID: 72094169dce04dd43a85bc0066f7ad75
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 425, y: 2222}
+  - name: Journals Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1567
+      y: 2285
+      width: 307
+      height: 107
+    spriteID: 1156f653d5d6c6d4ca02364ccdab6ac4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1253, y: 1843}
+  - name: Crystal Guide Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1007
+      y: 2567
+      width: 295
+      height: 73
+    spriteID: 9cfd98727b1eeec41a88798672adc3f9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 444, y: 2282}
+  - name: Scrapbooks Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 428
+      y: 2665
+      width: 135
+      height: 100
+    spriteID: 302d455e35702694e99d1da3b8a066d2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -61, y: 2350}
+  - name: Mugwort Illustration Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1882
+      y: 2285
+      width: 129
+      height: 170
+    spriteID: cb662a10c0e697c4da050cb57dfd1baa
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1183, y: 1546}
+  - name: Wormwood Illustration Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1349
+      y: 2480
+      width: 129
+      height: 170
+    spriteID: 97bab459f932f0a42859d3a41d80a054
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 499, y: 1741}
+  - name: Yarrow Illustration Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1486
+      y: 2480
+      width: 129
+      height: 170
+    spriteID: d473414d25b7ae946beb94723d2a3ee5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 482, y: 1741}
+  - name: Dried Herb Bundle Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2665
+      width: 131
+      height: 216
+    spriteID: 76ba15e6f075a63489abadb66c82d048
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1174, y: 1998}
+  - name: Butterfly Plate Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1787
+      y: 2480
+      width: 134
+      height: 123
+    spriteID: 518f927a6c939314b8e7f3ce20f7d583
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1097, y: 1899}
+  - name: Patterned Plate  Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 2665
+      width: 135
+      height: 122
+    spriteID: 77346bebe13bfe342bc367dd1c1acb7a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -701, y: 2083}
+  - name: Floral Plate Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 286
+      y: 2665
+      width: 134
+      height: 122
+    spriteID: 68caebe31cf3f6642954dacb5948286c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -713, y: 2083}
+  - name: Expired Candy Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1845
+      y: 2180
+      width: 135
+      height: 87
+    spriteID: e44308f667ba4dc468f9d92e82262dd0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 864, y: 1914}
+  - name: Worry Dolls Item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1988
+      y: 2180
+      width: 42
+      height: 17
+    spriteID: 1e68830d53653744eb704ca28bf2ec2f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 383, y: 1843}
+  - name: Right View BG
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1920
+      height: 1080
+    spriteID: c347dbc6aff24ca489585618b8b356ad
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: Background
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 1920
+      height: 1080
+    spriteID: 549d8e6ae03adf545836ec633178cdb4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1092}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 1024
+  importedTextureHeight: 2048
+  documentSize: {x: 1920, y: 1080}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 2048
+  textureActualHeight: 4096
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Gramophone Item
+    spriteName: Gramophone Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 04a12fd1ef7f18846869693afbd05754
+    layerID: 27
+    mosaicPosition: {x: 1349, y: 2285}
+  - name: Tea Set Item
+    spriteName: Tea Set Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a7802d4427b2e654a88dd1e297845c63
+    layerID: 26
+    mosaicPosition: {x: 4, y: 2180}
+  - name: Glass Animals Item
+    spriteName: Glass Animals Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 54acf412af0bde247b287f819955d101
+    layerID: 25
+    mosaicPosition: {x: 1349, y: 2180}
+  - name: Blue Quartz Item
+    spriteName: Blue Quartz Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f1cff9e144f663346a8ad803f2da51e7
+    layerID: 24
+    mosaicPosition: {x: 1932, y: 216}
+  - name: Amethyst Geode Item
+    spriteName: Amethyst Geode Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b1af0e1806c8e26419d8fa1716f3ee92
+    layerID: 23
+    mosaicPosition: {x: 1932, y: 103}
+  - name: Large Pyrite Item
+    spriteName: Large Pyrite Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 144cabb789217734da7db704f12a1578
+    layerID: 22
+    mosaicPosition: {x: 1932, y: 309}
+  - name: Hourglass Item
+    spriteName: Hourglass Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4fe58fd824350e8459fd9dd45e976472
+    layerID: 21
+    mosaicPosition: {x: 1623, y: 2480}
+  - name: Alchemy Book Item
+    spriteName: Alchemy Book Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9232c1e40e6d4844dbe5584649d439f7
+    layerID: 20
+    mosaicPosition: {x: 1929, y: 2480}
+  - name: Empty Journals Item
+    spriteName: Empty Journals Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 18165e0e26c247a4a9229640034d103e
+    layerID: 19
+    mosaicPosition: {x: 1567, y: 2400}
+  - name: Photography Album Items
+    spriteName: Photography Album Items
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4379ef342d15fba47bdc573e7ca91325
+    layerID: 18
+    mosaicPosition: {x: 1007, y: 2180}
+  - name: Incense Item
+    spriteName: Incense Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9bccccd0ce8ce494a96fc93625479a33
+    layerID: 17
+    mosaicPosition: {x: 1623, y: 2601}
+  - name: Framed Photo Item
+    spriteName: Framed Photo Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b2b9e0ed0f749f34598a38a39069579e
+    layerID: 16
+    mosaicPosition: {x: 1932, y: 4}
+  - name: "Newton\u2019s Cradle Item"
+    spriteName: "Newton\u2019s Cradle Item"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 72094169dce04dd43a85bc0066f7ad75
+    layerID: 15
+    mosaicPosition: {x: 571, y: 2665}
+  - name: Journals Item
+    spriteName: Journals Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1156f653d5d6c6d4ca02364ccdab6ac4
+    layerID: 14
+    mosaicPosition: {x: 1567, y: 2285}
+  - name: Crystal Guide Item
+    spriteName: Crystal Guide Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9cfd98727b1eeec41a88798672adc3f9
+    layerID: 13
+    mosaicPosition: {x: 1007, y: 2567}
+  - name: Scrapbooks Item
+    spriteName: Scrapbooks Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 302d455e35702694e99d1da3b8a066d2
+    layerID: 12
+    mosaicPosition: {x: 428, y: 2665}
+  - name: Mugwort Illustration Item
+    spriteName: Mugwort Illustration Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cb662a10c0e697c4da050cb57dfd1baa
+    layerID: 11
+    mosaicPosition: {x: 1882, y: 2285}
+  - name: Wormwood Illustration Item
+    spriteName: Wormwood Illustration Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 97bab459f932f0a42859d3a41d80a054
+    layerID: 10
+    mosaicPosition: {x: 1349, y: 2480}
+  - name: Yarrow Illustration Item
+    spriteName: Yarrow Illustration Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d473414d25b7ae946beb94723d2a3ee5
+    layerID: 9
+    mosaicPosition: {x: 1486, y: 2480}
+  - name: Dried Herb Bundle Item
+    spriteName: Dried Herb Bundle Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 76ba15e6f075a63489abadb66c82d048
+    layerID: 8
+    mosaicPosition: {x: 4, y: 2665}
+  - name: Butterfly Plate Item
+    spriteName: Butterfly Plate Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 518f927a6c939314b8e7f3ce20f7d583
+    layerID: 7
+    mosaicPosition: {x: 1787, y: 2480}
+  - name: Patterned Plate  Item
+    spriteName: Patterned Plate  Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 77346bebe13bfe342bc367dd1c1acb7a
+    layerID: 6
+    mosaicPosition: {x: 143, y: 2665}
+  - name: Floral Plate Item
+    spriteName: Floral Plate Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 68caebe31cf3f6642954dacb5948286c
+    layerID: 5
+    mosaicPosition: {x: 286, y: 2665}
+  - name: Expired Candy Item
+    spriteName: Expired Candy Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e44308f667ba4dc468f9d92e82262dd0
+    layerID: 4
+    mosaicPosition: {x: 1845, y: 2180}
+  - name: Worry Dolls Item
+    spriteName: Worry Dolls Item
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1e68830d53653744eb704ca28bf2ec2f
+    layerID: 3
+    mosaicPosition: {x: 1988, y: 2180}
+  - name: Right View BG
+    spriteName: Right View BG
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c347dbc6aff24ca489585618b8b356ad
+    layerID: 2
+    mosaicPosition: {x: 4, y: 4}
+  - name: Background
+    spriteName: Background
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 549d8e6ae03adf545836ec633178cdb4
+    layerID: 1
+    mosaicPosition: {x: 4, y: 1092}
+  sharedRigPSDLayers: []
+  generateGOHierarchy: 0
+  textureAssetName: RightView_BGandItems Texture
+  prefabAssetName: RightView_BGandItems Prefab
+  spriteLibAssetName: RightView_BGandItems Sprite Lib
+  skeletonAssetName: RightView_BGandItems Skeleton
+  secondarySpriteTextures: []
