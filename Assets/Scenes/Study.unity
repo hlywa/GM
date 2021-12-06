@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 243.8, y: -169}
-  m_SizeDelta: {x: 144.3146, y: 57.1881}
+  m_AnchoredPosition: {x: 167, y: -94.747}
+  m_SizeDelta: {x: 98.4811, y: 44.202}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &32382966
 MonoBehaviour:
@@ -449,8 +449,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 169.3, y: 34.1}
-  m_SizeDelta: {x: 222.3432, y: 215.7045}
+  m_AnchoredPosition: {x: 123, y: 25.98}
+  m_SizeDelta: {x: 166.72, y: 137.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &58723577
 MonoBehaviour:
@@ -768,16 +768,6 @@ GameObject:
   - component: {fileID: 137552599}
   - component: {fileID: 137552610}
   - component: {fileID: 137552609}
-  - component: {fileID: 137552608}
-  - component: {fileID: 137552607}
-  - component: {fileID: 137552606}
-  - component: {fileID: 137552605}
-  - component: {fileID: 137552604}
-  - component: {fileID: 137552603}
-  - component: {fileID: 137552602}
-  - component: {fileID: 137552601}
-  - component: {fileID: 137552600}
-  - component: {fileID: 137552611}
   m_Layer: 0
   m_Name: Left View Flowchart
   m_TagString: Untagged
@@ -799,242 +789,6 @@ Transform:
   m_Father: {fileID: 107569381}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &137552600
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137552598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 9
-  indentLevel: 0
-  storyText: I can't get distracted now.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &137552601
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137552598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 912.7622
-    y: 155.34364
-    width: 131.7073
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 10
-  blockName: Keep cleaning
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 137552600}
-  suppressAllAutoSelections: 0
---- !u!114 &137552602
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137552598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 12
-  indentLevel: 0
-  duration: 1
-  targetView: {fileID: 1284896396}
-  waitUntilFinished: 1
-  targetCamera: {fileID: 0}
-  orthoSizeTweenType: 4
-  posTweenType: 4
-  rotTweenType: 4
---- !u!114 &137552603
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137552598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 603.2641
-    y: 154.2124
-    width: 134.14633
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 7
-  blockName: Look at papers
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 137552602}
-  suppressAllAutoSelections: 0
---- !u!114 &137552604
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137552598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 5
-  indentLevel: 0
-  text: Keep cleaning
-  description: 
-  targetBlock: {fileID: 137552601}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &137552605
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137552598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 4
-  indentLevel: 0
-  text: Look at papers
-  description: 
-  targetBlock: {fileID: 137552603}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &137552606
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137552598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 11
-  indentLevel: 0
-  storyText: She'd make fantastical worlds for me to explore.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &137552607
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137552598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2
-  indentLevel: 0
-  storyText: Grandma used to let me sit under her desk while she worked.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &137552608
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137552598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 754.0896
-    y: 74.656364
-    width: 124.390236
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 3
-  blockName: Desk Clicked
-  description: Left View
-  eventHandler: {fileID: 137552611}
-  commandList:
-  - {fileID: 137552607}
-  - {fileID: 137552606}
-  - {fileID: 137552605}
-  - {fileID: 137552604}
-  suppressAllAutoSelections: 0
 --- !u!114 &137552609
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1085,10 +839,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 137552608}
-  selectedCommands:
-  - {fileID: 137552607}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1100,22 +852,6 @@ MonoBehaviour:
   hideCommands: []
   luaEnvironment: {fileID: 0}
   luaBindingName: flowchart
---- !u!114 &137552611
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137552598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 137552608}
-  suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 1381392714}
-  waitFrames: 1
 --- !u!1 &185759621
 GameObject:
   m_ObjectHideFlags: 0
@@ -2678,7 +2414,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 361.9649, y: 218.44995}
+  m_AnchoredPosition: {x: 219.38, y: 138.43}
   m_SizeDelta: {x: 81.3108, y: 76.4395}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &635205068
@@ -3222,7 +2958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -3788,7 +3524,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 239.38715
     y: 127.62941
-    width: 91.318665
+    width: 131.31866
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3814,7 +3550,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 243.25232
     y: 23.270908
-    width: 88.021965
+    width: 128.02197
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3934,7 +3670,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 70.125
     y: 68.4375
-    width: 105.60438
+    width: 145.60437
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5609,6 +5345,22 @@ GameObject:
   - component: {fileID: 1603822292}
   - component: {fileID: 1603822291}
   - component: {fileID: 1603822290}
+  - component: {fileID: 1603822324}
+  - component: {fileID: 1603822323}
+  - component: {fileID: 1603822322}
+  - component: {fileID: 1603822321}
+  - component: {fileID: 1603822320}
+  - component: {fileID: 1603822319}
+  - component: {fileID: 1603822318}
+  - component: {fileID: 1603822317}
+  - component: {fileID: 1603822316}
+  - component: {fileID: 1603822315}
+  - component: {fileID: 1603822314}
+  - component: {fileID: 1603822313}
+  - component: {fileID: 1603822312}
+  - component: {fileID: 1603822311}
+  - component: {fileID: 1603822310}
+  - component: {fileID: 1603822309}
   m_Layer: 0
   m_Name: Center Flowchart
   m_TagString: Untagged
@@ -5687,9 +5439,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 337
-    y: 61
-    width: 96.30134
+    x: 286.315
+    y: 52.78083
+    width: 136.30133
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5725,9 +5477,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1603822292}
-  selectedCommands:
-  - {fileID: 1603822291}
+  - {fileID: 1603822311}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -5769,9 +5520,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 196.61334
-    y: 63.77221
-    width: 108.630104
+    x: 85.654465
+    y: 56.9229
+    width: 148.6301
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5812,7 +5563,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: I still need to read most of these.
+  storyText: "My grandma used to read these to me as a kid\u2026"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5839,9 +5590,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 658.62366
-    y: 124.15896
-    width: 89.45203
+    x: 643.55505
+    y: 122.78909
+    width: 129.45203
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5882,7 +5633,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: Pretty!
+  storyText: "Grandma really loved these ceramic sculptures\u2026"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5909,9 +5660,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 652.7896
-    y: 57.889885
-    width: 108.630104
+    x: 636.35126
+    y: 56.520023
+    width: 148.6301
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5952,7 +5703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: Grandma always had a favorite pen.
+  storyText: This pen holder feels way sturdier than my plastic one...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5979,9 +5730,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 493.96622
+    x: 461.0895
     y: 123.77221
-    width: 116.84927
+    width: 156.84927
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6049,9 +5800,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 503.67206
-    y: 61.41927
-    width: 122.32873
+    x: 455.7269
+    y: 53.200096
+    width: 162.32874
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6076,7 +5827,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: I've always loved this painting.
+  storyText: 'I remember when mom made this, back when she was taking one of those
+    paint and sip classes with a friend. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6119,9 +5871,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 341.31897
-    y: 123.77222
-    width: 120.95886
+    x: 286.52444
+    y: 122.40235
+    width: 160.95886
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6131,6 +5883,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1603822303}
   commandList:
   - {fileID: 1603822302}
+  - {fileID: 1603822321}
   suppressAllAutoSelections: 0
 --- !u!114 &1603822305
 MonoBehaviour:
@@ -6146,7 +5899,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: Grandma always told me to be gentle with the cord.
+  storyText: This is my favorite lamp.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6189,9 +5942,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 196.61333
-    y: 127.30165
-    width: 122.32873
+    x: 88.39415
+    y: 121.8222
+    width: 162.32874
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6216,7 +5969,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: Cute...
+  storyText: Terrariums are cool. Like tiny enclosed worlds.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6229,6 +5982,385 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1603822309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603822282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1603822311}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 1150840062}
+  waitFrames: 1
+--- !u!114 &1603822310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603822282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 33
+  indentLevel: 0
+  storyText: Grandma never seemed like a cinephile and yet...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1603822311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603822282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1116.3029
+    y: 49.71177
+    width: 140.41092
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 31
+  blockName: Diploma Clicked
+  description: 
+  eventHandler: {fileID: 1603822309}
+  commandList:
+  - {fileID: 1603822310}
+  suppressAllAutoSelections: 0
+--- !u!114 &1603822312
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603822282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1603822314}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 1150840062}
+  waitFrames: 1
+--- !u!114 &1603822313
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603822282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 27
+  indentLevel: 0
+  storyText: Grandma never seemed like a cinephile and yet...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1603822314
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603822282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 962.87836
+    y: 116.83504
+    width: 134.93149
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 31
+  blockName: Fbooks Clicked
+  description: 
+  eventHandler: {fileID: 1603822312}
+  commandList:
+  - {fileID: 1603822313}
+  suppressAllAutoSelections: 0
+--- !u!114 &1603822315
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603822282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1603822317}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 821838127}
+  waitFrames: 1
+--- !u!114 &1603822316
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603822282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 25
+  indentLevel: 0
+  storyText: "Grandma used to play old cartoon films on this when I was a kid\u2026"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1603822317
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603822282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 949.8647
+    y: 49.71177
+    width: 145.89038
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 30
+  blockName: Projector Clicked
+  description: 
+  eventHandler: {fileID: 1603822315}
+  commandList:
+  - {fileID: 1603822316}
+  suppressAllAutoSelections: 0
+--- !u!114 &1603822318
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603822282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1603822320}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 501199230}
+  waitFrames: 1
+--- !u!114 &1603822319
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603822282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 23
+  indentLevel: 0
+  storyText: I wonder what this unlocks?
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1603822320
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603822282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 804.65936
+    y: 53.821342
+    width: 117.12326
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 29
+  blockName: Key Clicked
+  description: 
+  eventHandler: {fileID: 1603822318}
+  commandList:
+  - {fileID: 1603822319}
+  suppressAllAutoSelections: 0
+--- !u!114 &1603822321
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603822282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 0
+  storyText: "She\u2019s really good but gave it up cause she doesn\u2019t see the
+    value in spending so much time on something that she can\u2019t profit off of."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1603822322
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603822282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1603822324}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 42948072}
+  waitFrames: 1
+--- !u!114 &1603822323
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603822282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  indentLevel: 0
+  storyText: "As a kid I would try to spin this as fast as I could. Grandma would
+    scold me saying it\u2019s not a toy."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1603822324
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603822282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 797.12476
+    y: 122.31447
+    width: 128.08215
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 28
+  blockName: Globe Clicked
+  description: 
+  eventHandler: {fileID: 1603822322}
+  commandList:
+  - {fileID: 1603822323}
+  suppressAllAutoSelections: 0
 --- !u!1 &1745579302 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8634403680178832364, guid: 91b4ffa012a58ca4d9bb5a8276a416b7, type: 3}
@@ -6514,8 +6646,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -193.5352, y: 3.0575}
-  m_SizeDelta: {x: 365.2231, y: 409.2449}
+  m_AnchoredPosition: {x: -101, y: 9.4659}
+  m_SizeDelta: {x: 213.92, y: 252.6283}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1844689134
 MonoBehaviour:
@@ -6920,7 +7052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 922497551}
+  selectedFlowchart: {fileID: 1603822287}
 --- !u!4 &2016739222
 Transform:
   m_ObjectHideFlags: 1
@@ -7001,8 +7133,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 86.182, y: -169}
-  m_SizeDelta: {x: 126.2885, y: 57.19}
+  m_AnchoredPosition: {x: 61.539635, y: -94.801}
+  m_SizeDelta: {x: 91.3678, y: 44.0947}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2106206779
 MonoBehaviour:

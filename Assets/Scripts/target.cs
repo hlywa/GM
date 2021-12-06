@@ -7,28 +7,19 @@ public class target : MonoBehaviour
     private Vector2 followSpot;
     public float speed;
 
+    public bool inDialog;
+    public bool cutSceneInProgress;
 
-    void Start()
+    public void ExitDialogue()
     {
-        followSpot = transform.position;
+        inDialog = false;
+        cutSceneInProgress = false;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void EnterDialogue()
     {
-        var mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        if (Input.GetMouseButtonDown(0))
-        {
-            followSpot = new Vector2(mousePosition.x, mousePosition.y);
-        }
-        transform.position = Vector2.MoveTowards(transform.position, followSpot, Time.deltaTime * speed);
-       
+        inDialog = true;
+        cutSceneInProgress = true;
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        followSpot = transform.position;
-    }
-
 
 }
