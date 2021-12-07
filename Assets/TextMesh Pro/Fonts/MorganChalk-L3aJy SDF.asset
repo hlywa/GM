@@ -39,6 +39,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _Ambient: 0.5
     - _Bevel: 0.5
@@ -94,10 +95,10 @@ Material:
     m_Colors:
     - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
     - _EnvMatrixRotation: {r: 0, g: 0, b: 0, a: 0}
-    - _FaceColor: {r: 2.1265154, g: 1.9445786, b: 1.0732884, a: 1}
+    - _FaceColor: {r: 3.5758252, g: 3.5758252, b: 3.5758252, a: 1}
     - _GlowColor: {r: 0.0007001769, g: 0.0006704524, b: 0.0006704524, a: 0.5}
     - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
-    - _OutlineColor: {r: 0.3584906, g: 0.31480658, b: 0.09638661, a: 0.5058824}
+    - _OutlineColor: {r: 1, g: 1, b: 1, a: 0.5058824}
     - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
