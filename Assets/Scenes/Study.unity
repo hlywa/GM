@@ -957,7 +957,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 411.87888
     y: 32.392227
-    width: 145.89038
+    width: 108.285675
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1027,7 +1027,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 245.24005
     y: 103.12393
-    width: 137.6712
+    width: 101.428535
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1098,7 +1098,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 249.67905
     y: 32.514175
-    width: 140.41092
+    width: 103.71425
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1125,7 +1125,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 41
     y: 39
-    width: 159.589
+    width: 124.28567
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1149,18 +1149,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 732.28766, y: -118.06722}
+  scrollPos: {x: 736.7921, y: 48.30348}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.73000026
+  zoom: 0.7000003
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 137552647}
   selectedCommands: []
   variables: []
   description: 
@@ -1297,7 +1298,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 419.78134
     y: 101.68489
-    width: 133.56161
+    width: 95.71425
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1422,7 +1423,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 576.09595
     y: 31.392227
-    width: 134.93149
+    width: 96.85711
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1520,7 +1521,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 576.896
     y: 95.39223
-    width: 154.10956
+    width: 117.42853
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1590,7 +1591,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 752.09595
     y: 30.392227
-    width: 169.17804
+    width: 133.42853
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1778,7 +1779,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 200.58928
     y: 645.465
-    width: 152.73969
+    width: 116.28567
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1833,7 +1834,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 194.70816
     y: 580.09344
-    width: 186.98625
+    width: 151.71423
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1906,7 +1907,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 753.2959
     y: 97.39223
-    width: 152.73969
+    width: 116.28567
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2156,7 +2157,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -137.3465
     y: 203.3806
-    width: 140.41092
+    width: 103.71425
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5401,7 +5402,6 @@ GameObject:
   - component: {fileID: 736855391}
   - component: {fileID: 736855390}
   - component: {fileID: 736855392}
-  - component: {fileID: 736855388}
   - component: {fileID: 736855393}
   m_Layer: 0
   m_Name: Open_Flowchart
@@ -5436,7 +5436,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 736855385}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 736855393}
   variables: []
   description: 
   stepPause: 0
@@ -5479,7 +5480,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 178.76707
+    width: 137.12325
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5492,7 +5493,6 @@ MonoBehaviour:
   - {fileID: 736855387}
   - {fileID: 736855391}
   - {fileID: 736855392}
-  - {fileID: 736855388}
   - {fileID: 736855393}
   suppressAllAutoSelections: 0
 --- !u!4 &736855386
@@ -5523,34 +5523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: So many memories here...
-  description: 
-  character: {fileID: 244501806}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &736855388
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 736855382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 8
-  indentLevel: 0
-  storyText: Maybe if I clean up it'll help.
+  storyText: "Like mom, I\u2019ve been avoiding this room for the past few months\u2026"
   description: 
   character: {fileID: 244501806}
   portrait: {fileID: 0}
@@ -5602,7 +5575,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: I can't believe she's gone.
+  storyText: "There\u2019s so many memories tied to it, as it was grandma's favorite."
   description: 
   character: {fileID: 244501806}
   portrait: {fileID: 0}
@@ -5629,7 +5602,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  storyText: Mom's been crying nonstop.
+  storyText: "I might cry but I\u2019m ready to finally go through her belongings
+    to sort out what's worth keeping\u2026"
   description: 
   character: {fileID: 244501806}
   portrait: {fileID: 0}
