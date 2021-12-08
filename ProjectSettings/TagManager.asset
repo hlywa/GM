@@ -3,12 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Arrows
+  - ClickableItem
+  - MenuItemObject
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Minigame
   - Water
   - UI
   - 
@@ -58,4 +61,7 @@ TagManager:
     locked: 0
   - name: UIII
     uniqueID: 3085678095
+    locked: 0
+  - name: Water Game
+    uniqueID: 2590273969
     locked: 0

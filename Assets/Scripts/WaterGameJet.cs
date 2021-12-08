@@ -6,11 +6,6 @@ public class WaterGameJet : MonoBehaviour
 {
     public PointEffector2D jetEffector;
 
-    private void Start()
-    {
-        GetComponent<CircleCollider2D>().isTrigger = false;
-    }
-
     void OnMouseDown()
     {
         jetEffector.enabled = true;
