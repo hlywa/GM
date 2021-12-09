@@ -18,7 +18,10 @@ public class ItemMenuManager : MonoBehaviour
 
     public GameObject miniGame;
 
-    public bool showing = false; 
+    public bool showing = false;
+
+    public AudioClip trashClip;
+    public AudioClip keepClip;
 
     private GameObject[] menuChildren;
     [HideInInspector]

@@ -6,13 +6,17 @@ using Fungus;
 public class ClickItemHandler : MonoBehaviour
 {
     public string description;
-    public float lerpDuration = 0.5f; 
+    public float lerpDuration = 0.5f;
+
+    private AudioSource audioSource;
 
     private ItemMenuManager itemMenuManager;
 
     void Start()
     {
         itemMenuManager = FindObjectOfType<ItemMenuManager>();
+
+        audioSource = itemMenuManager.GetComponent<AudioSource>();
     }
 
     private void OnMouseDown()
@@ -27,12 +31,16 @@ public class ClickItemHandler : MonoBehaviour
     {
         yield return LerpPosition(itemMenuManager.trashTransform.position, lerpDuration);
         gameObject.SetActive(false);
+        audioSource.clip = itemMenuManager.trashClip;
+        audioSource.Play();
     }
 
     IEnumerator SendToKeepBox()
     {
         yield return LerpPosition(itemMenuManager.keepTransform.position, lerpDuration);
         gameObject.SetActive(false);
+        audioSource.clip = itemMenuManager.keepClip;
+        audioSource.Play();
     }
 
     IEnumerator LerpPosition(Vector2 targetPosition, float duration)
